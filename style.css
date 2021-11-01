@@ -1,0 +1,30 @@
+body {
+    font-family: Helvetica;
+    margin : 0
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px
+}
+
+body > header > nav > ul {
+    list-style: None;
+}
+
+body > header > nav > ul > li > a {
+    color: white;
+}
+
+body > footer {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+body > main { 
+    width: 90%;
+    margin: auto;
+}

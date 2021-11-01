@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>CodeClan News</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' href='style.css'>
     <script src='main.js'></script>
 </head>
 <body>
@@ -58,17 +58,42 @@
         </div> 
     </aside>
     <article>
-        <h2>Main Article Headline</h2>
+        <header>
+            <h2>Main Article Headline</h2>
+        </header>
         <h3>Author Name</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam illum architecto cum repellendus iusto doloribus repudiandae quod, quos quisquam, ad tempore similique sit debitis. Delectus beatae temporibus blanditiis explicabo eligendi?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequuntur obcaecati recusandae ipsum cum. Nam id consequatur voluptates adipisci maiores iste laboriosam nobis sunt, quisquam doloremque accusantium dolores modi in?</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id molestiae, tenetur mollitia excepturi maiores porro eum repudiandae asperiores in aperiam. Deleniti, atque omnis officia dolore quia itaque at excepturi iure.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt obcaecati accusantium maxime consequuntur fuga sed porro vero reiciendis asperiores explicabo expedita doloremque, aperiam repudiandae quis soluta sequi! Repellendus, aliquid illum.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis amet veniam ex beatae quibusdam temporibus nobis, dolorum ea facere eaque repudiandae corporis neque dolore veritatis delectus nisi ipsa suscipit.</p>
+        <header>
+            <h3>Comments</h3>
+        </header>
+        <form action="/comment">
+            <textarea name="comments" cols=80 rows=10>    
+            </textarea>
+            <br>
+            <input type = "submit"> 
+        </form> <hr>
+        <footer>
+            <div><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width = 150 alt="image 1">
+                <h4>Username</h4>
+                <h5>Posted: 23/03/2020</h5>
+                <p>This was interesting, thanks.</p><hr>
+            <div><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width = 150 alt="image 1">
+                <h4>Username</h4>
+                <h5>Posted: 25/03/2020</h5>
+                <p>This was interesting, thanks.</p><hr>
+            <div><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" width = 150 alt="image 1">
+                <h4>Username</h4>
+                <h5>Posted: 26/03/2020</h5>
+                <p>Thanks, I hate it.</p><hr>
+        </footer>
     </article>
-
-    <form action="/comment"></form>
-    
 </main>
+    <footer>
+        <p>&copy; CodeClan News 2020</p>
+    </footer>
 </body>
 </html>
